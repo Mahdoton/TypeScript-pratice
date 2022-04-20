@@ -25,3 +25,7 @@ var FileAccess;
     FileAccess[FileAccess["G"] = "123".length] = "G";
 })(FileAccess || (FileAccess = {}));
 console.log();
+function fn() {
+    var b = 3;
+    console.log(b);
+}
